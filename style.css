@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ .col1, .col2, .col3 {
+      float: left;  
+} 
+
+.col1 {
+    background-color: white;
+}
+.col2 {
+    background-color: rgba(244, 249, 249, 0.878)
+}
+.col3 {
+    background-color: white;
+}
+
+.sidebar {
+   position: fixed; 
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.sidebar h3{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.sidebar ul li {
+    padding: 15px;
+    transition: .5s;
+}
+
+.sidebar ul li:hover{
+    background: rgb(194, 248, 245) ;
+    border-radius: 10px;
+}
+
+.exit {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.col2 .header {
+    margin-left:190px;
+    padding: 15px;
+}
+.col2 .header i {
+     margin-left: 10px; 
+}
+
+.days {
+    float: right; 
+    margin-right: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.socialmedia {
+    margin-left: 160px;
+    margin-top: 10px;
+    padding: 50px; 
+    display: flex;     
+}
+
+.kutu1, .kutu2, .kutu3, .kutu4 {
+    display: flex; 
+    width:200px;
+    height:150px;
+    display: inline-block; 
+    background-color:rgba(244, 249, 249, 0.878);
+    border-radius: 30px;
+    border:3px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ .kutu1 p, .kutu2 p, .kutu3 p, .kutu4 p{
+    padding-left: 40px;
+    padding-top: 60px;
+} 
+
+.kutu1 h5, .kutu2 h5, .kutu3 h5, .kutu4 h5 {
+    margin-left: 40px;
+    color: lightgrey;
+} 
+
+.kutu1, .kutu2, .kutu3, .kutu4, .kutu5, .kutu6, .kutu7 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .col2 .socialmedia .kutu1:hover{
+    background-color: white;
+}
+.container .col2 .socialmedia .kutu2:hover{
+    background-color: white;
+}
+.container .col2 .socialmedia .kutu3:hover{
+    background-color: white;
+}
+.container .col2 .socialmedia .kutu4:hover{
+    background-color: white;
+}
+
+.chart {
+    margin-left: 200px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.keymetrics {
+    margin-left: 200px;
+}
+
+.kutu5 {
+    margin-top: 20px;
+    padding: 20px;
+    float:left;
+    width:400px;
+    height:160px;
+    background-color: white;
+    border-radius: 20px;  
+}
+
+.kutu5 li span {
+    float: right;
+}
+
+.kutu5 hr {
+    margin: 7px 0;
+}
+
+.kutu6, .kutu7 {
+    margin-top: 20px;
+    margin-right: 40px;
+    padding-top: 40px;
+    float:right;
+    width:130px;
+    height:160px;
+    background-color: rgb(88, 3, 88);
+    color: white;
+    border-radius: 30px; 
+}
+
+.kutu6 .down, p, .kutu7 .up, p {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+ .kutu6 h2, .kutu7 h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size:25px;
+ }
+ 
+ .col3 .header {
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+ }
+
+ .col3 .header a i {
+    display: flex;
+    padding-top: 0px;
+ }
+ .col3 .header i {
+    display: flex;
+    padding-top: 20px;
+ }
+ 
+ .col3 .header a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(250, 231, 232); 
+ } 
+
+ .col3 .header a:hover {
+    transition: background-color 0.5s;
+    border-radius: 10px;
+ }
+
+ .image {
+    margin-top: 30px;
+ }
+
+ #datepicker {
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+ }
+
+ .kutu8, .kutu9 {
+    margin-left: 30px;
+    margin-top: 20px;
+    overflow: hidden; 
+    position: relative;
+    width:300px;
+    height:120px;
+    border: 2px solid #dcd6d6; 
+    background-color:white;
+    border-radius: 10px;
+ }
+
+ .menhand, .womanhand {
+    margin-left: 10px;
+ }
+
+ .men img, .woman img {
+    position: absolute; 
+    top: 20px;
+    text-align: center;
+    padding-left: 200px;
+
+ }
+
+
+ 
